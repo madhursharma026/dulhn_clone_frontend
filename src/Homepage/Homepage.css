@@ -1,0 +1,144 @@
+body {
+    background: #EEDCC4;
+    overflow-x: hidden;
+}
+
+.header_logo {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.login_signup_btn {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.suggestion_box {
+    background-color: #FDF2E3;
+    border-radius: 20px;
+    box-shadow: 2.5px 5px;
+    height: 200px;
+}
+
+.marquee_tag {
+    background: #3A0514;
+}
+
+.love_and_happiness_image_area {
+    border: 60px solid #3A0514;
+}
+
+.main_heading_love_and_happiness {
+    box-shadow:
+        inset 0px 11px 8px -10px black,
+        inset 0px -11px 8px -10px black;
+}
+
+.love_and_happiness_area {
+    border-style: double;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 1200px) {
+    .love_and_happiness_image_area {
+        width: 100%;
+    }
+}
+
+.browse_profile_ul_tag {
+    list-style-type: none;
+}
+
+.browse_profile_options_heading,
+.browse_profile_options,
+.browse_profile_more_options {
+    display: inline-block;
+}
+
+.browse_profile_options {
+    border-right: 1px solid black;
+}
+
+.homepage_after_sm_screen {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .homepage_before_sm_screen {
+        display: none;
+    }
+
+    .homepage_after_sm_screen {
+        display: block;
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #30302f;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav .sidebar_link_tag {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav .sidebar_link_tag {
+        font-size: 18px;
+    }
+}
+
+.sidebar_options_logo {
+    position: "relative";
+    left: "-10px";
+    font-size: "18px;"
+}
+
+.sidebar_social_tags {
+    margin: auto;
+    max-width: 150px;
+}
+
+.login_and_signup_btn_after_sm_scrn {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+
+.sidebar_btn_after_sm_scrn {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+
